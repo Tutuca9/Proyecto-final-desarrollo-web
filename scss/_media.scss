@@ -1,0 +1,126 @@
+@media (max-width: 600px) {
+	.body__index {
+		background-color: cadetblue;
+		color: white;
+	}
+	.header__index {
+		margin-bottom: 10px;
+	}
+	.main__index {
+		margin-bottom: 10px;
+	}
+	.footer__index {
+		background-color: navy;
+		color: white;
+	}
+	.sp {
+		margin: 10px;
+		h3 {
+			text-align: left;
+		}
+		p {
+			margin: 10px;
+			text-align: left;
+		}
+	}
+	.dh {
+		margin: 10px;
+		p {
+			margin: 10px;
+			text-align: center;
+		}
+	}
+	.body__servicios {
+		background-color: cadetblue;
+		color: white;
+	}
+	.main__servicios {
+		margin-bottom: 200px;
+	}
+	.body__formulario {
+		background-color: cadetblue;
+	}
+	.grid {
+		display: block;
+	}
+	.div__form {
+		width: 100%;
+	}
+	.formulario__imagen__decorativo {
+		display: none;
+	}
+	.body__casas {
+		background-color: cadetblue;
+	}
+	.section__casas {
+		display: flex;
+		flex-direction: column;
+	}
+	.indic__casas {
+		background-color: white;
+	}
+	.body__deptos {
+		background-color: cadetblue;
+	}
+	.section__deptos {
+		display: flex;
+		flex-direction: column;
+	}
+	.indic__deptos {
+		background-color: white;
+	}
+	.body__casa1 {
+		background-color: cadetblue;
+	}
+	.header__casa1 {
+		height: 200px;
+	}
+	.body__depto1 {
+		background-color: cadetblue;
+	}
+	.header__depto1 {
+		height: 200px;
+	}
+}
+
+@media screen and (max-width: 450px){
+.footer__index{
+	font-size: 1rem;
+    margin-top: 350px;
+}
+.dh{
+	margin: auto;
+	width: 100%;
+	margin-bottom: 46px;
+	p{
+		width: 100%;
+	}
+	h3{
+		text-align: center;
+	}
+}
+.sp{
+	margin: auto;
+	width: 100%;
+	p{
+		width: 100%;
+	}
+	h3{
+		text-align: center;
+	}
+}
+.flexbox__index{
+	display: none;
+}
+.tuma {
+display: none;
+}
+.form-consultas{
+	margin: auto;
+	width: 100%;
+
+}
+.div__form{
+	text-align: center;
+}
+}

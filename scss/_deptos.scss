@@ -1,0 +1,66 @@
+.body__deptos {
+	@include estilosInmbo($bg2);
+	font-size: 20px;
+}
+.header__deptos {
+	width: 100%;
+	padding: 2px;
+	background-color: #2e518b;
+}
+.texto__deptos {
+	display: flex;
+	height: 100px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+.section__deptos {
+	width: 100%;
+	max-width: 1000px;
+	margin: 20px auto;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(6, auto);
+}
+.indic__deptos {
+	display: flex;
+	flex-wrap: wrap;
+	border: 4px solid #2e518b;
+	box-shadow: 10px 15px 5px black;
+}
+.precio__deptos {
+	color: #2e518b;
+	width: 100%;
+	text-align: center;
+	height: 20px;
+}
+.prueba5 {
+	width: 50%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	color: #2e518b;
+}
+.prueba6 {
+@extend .prueba5;
+}
+.prueba7 {
+	@extend .prueba5;
+}
+.prueba8 {
+	@extend .prueba5;
+}
+.zoom__deptos {
+	transition: transform .2s;
+	&:hover {
+		transform: scale(0.9);
+	}
+	img {
+		border: #2e518b solid 3px;
+		width: 100%;
+		height: 300px;
+	}
+}

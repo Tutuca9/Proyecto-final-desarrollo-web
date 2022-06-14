@@ -1,0 +1,67 @@
+.body__casas {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+}
+.header__casas {
+	width: 100%;
+	padding: 2px;
+	background-color: #2e518b;
+}
+.texto__casas {
+	display: flex;
+	height: 100px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+.section__casas {
+	width: 100%;
+	max-width: 1000px;
+	margin: 20px auto;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(6, auto);
+}
+.indic__casas {
+	display: flex;
+	flex-wrap: wrap;
+	border: 4px solid #2e518b;
+	box-shadow: 10px 15px 5px black;
+}
+.precio__casa {
+	color: #2e518b;
+	width: 100%;
+	text-align: center;
+	height: 20px;
+}
+.prueba {
+	width: 50%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	color: #2e518b;
+}
+.prueba2 {
+	@extend .prueba;
+}
+.prueba3 {
+	@extend .prueba;
+}
+.prueba4 {
+	@extend .prueba;
+}
+.zoom__casas {
+	transition: transform .2s;
+	&:hover {
+		transform: scale(0.9);
+	}
+	img {
+		border: #2e518b solid 3px;
+		width: 100%;
+		height: 300px;
+	}
+}

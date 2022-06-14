@@ -1,0 +1,85 @@
+.body__index {
+	@include estilosInmbo($bg2);
+}
+.header__index {
+	width: 100%;
+	padding: 2px;
+	background-color: #2e518b;
+}
+.titulo__index {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 30px;
+}
+.section__index {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	img {
+		margin: 2px;
+		width: 400px;
+		height: 250px;
+	}
+}
+.img__index {
+	transition: transform .2s;
+	&:hover {
+		transform: scale(0.9);
+	}
+}
+.footer__index {
+	background-color: #2e518b;
+	color: white;
+	font-size: 20px;
+	width: 100%;
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
+}
+.redes__sociales {
+	overflow: hidden;
+	transition: 1.5s;
+	display: flex;
+	flex-direction: row;
+}
+.redes__socciales {
+	img {
+		&:hover {
+			cursor: pointer;
+			opacity: 0.6;
+		}
+	}
+}
+.sp {
+	width: 40%;
+	p {
+		width: 89%;
+	}
+}
+.dh {
+	width: 35%;
+	h3 {
+		text-align: left;
+	}
+	p {
+		text-align: left;
+		width: 55%;
+	}
+}
+.red-social {
+	text-align: center;
+}
+.flexbox__index {
+	display: flex;
+	width: 55%;
+	flex-wrap: wrap;
+	img {
+		margin: 8px;
+	}
+}

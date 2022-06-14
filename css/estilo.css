@@ -1,0 +1,385 @@
+.body__index {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white; }
+
+.header__index {
+  width: 100%;
+  padding: 2px;
+  background-color: #2e518b; }
+
+.titulo__index {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px; }
+
+.section__index {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .section__index img {
+    margin: 2px;
+    width: 400px;
+    height: 250px; }
+
+.img__index {
+  transition: transform .2s; }
+  .img__index:hover {
+    transform: scale(0.9); }
+
+.footer__index {
+  background-color: #2e518b;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: row; }
+
+.redes__sociales {
+  overflow: hidden;
+  transition: 1.5s;
+  display: flex;
+  flex-direction: row; }
+
+.redes__socciales img:hover {
+  cursor: pointer;
+  opacity: 0.6; }
+
+.sp {
+  width: 40%; }
+  .sp p {
+    width: 89%; }
+
+.dh {
+  width: 35%; }
+  .dh h3 {
+    text-align: left; }
+  .dh p {
+    text-align: left;
+    width: 55%; }
+
+.red-social {
+  text-align: center; }
+
+.flexbox__index {
+  display: flex;
+  width: 55%;
+  flex-wrap: wrap; }
+  .flexbox__index img {
+    margin: 8px; }
+
+.body__servicios {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white; }
+
+.header__servicios {
+  width: 100%;
+  padding: 20px;
+  background-color: #2e518b; }
+
+.main__servicios {
+  margin: 40px;
+  height: 500px; }
+
+.section__servicios {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr); }
+
+.ra {
+  grid-column: 1/2; }
+
+.rb {
+  grid-column: 2/3; }
+
+.header__formulario {
+  width: 100%;
+  padding: 20px;
+  background-color: #2e518b; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 100%; }
+  .grid h2 {
+    text-align: center;
+    font-size: 50px; }
+  .grid p {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 100px;
+    font-size: 30px; }
+
+.formulario__imagen__decorativo img {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  width: 70%;
+  height: 400px; }
+
+.div__form {
+  width: 60%; }
+
+.form-consultas {
+  width: 400px;
+  background: rgba(4, 4, 114, 0.856);
+  padding: 30px;
+  margin: auto;
+  margin: 100px;
+  border-radius: 4px;
+  font-family: calibri;
+  color: white;
+  grid-column: 1/2;
+  grid-row: 1/2; }
+  .form-consultas h4 {
+    font-size: 22px;
+    margin-bottom: 20px; }
+  .form-consultas p {
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px; }
+  .form-consultas .boton {
+    width: 100%;
+    background: gray;
+    padding: 12px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px; }
+
+.controls {
+  width: 100%;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 2px solid black;
+  font-family: calibri;
+  font-size: 18px; }
+
+.body__casas {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white; }
+
+.header__casas {
+  width: 100%;
+  padding: 2px;
+  background-color: #2e518b; }
+
+.texto__casas {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  color: white; }
+
+.section__casas {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, auto); }
+
+.indic__casas {
+  display: flex;
+  flex-wrap: wrap;
+  border: 4px solid #2e518b;
+  box-shadow: 10px 15px 5px black; }
+
+.precio__casa {
+  color: #2e518b;
+  width: 100%;
+  text-align: center;
+  height: 20px; }
+
+.prueba, .prueba2, .prueba3, .prueba4 {
+  width: 50%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #2e518b; }
+
+.zoom__casas {
+  transition: transform .2s; }
+  .zoom__casas:hover {
+    transform: scale(0.9); }
+  .zoom__casas img {
+    border: #2e518b solid 3px;
+    width: 100%;
+    height: 300px; }
+
+.body__deptos {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  font-size: 20px; }
+
+.header__deptos {
+  width: 100%;
+  padding: 2px;
+  background-color: #2e518b; }
+
+.texto__deptos {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  color: white; }
+
+.section__deptos {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, auto); }
+
+.indic__deptos {
+  display: flex;
+  flex-wrap: wrap;
+  border: 4px solid #2e518b;
+  box-shadow: 10px 15px 5px black; }
+
+.precio__deptos {
+  color: #2e518b;
+  width: 100%;
+  text-align: center;
+  height: 20px; }
+
+.prueba5, .prueba6, .prueba7, .prueba8 {
+  width: 50%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #2e518b; }
+
+.zoom__deptos {
+  transition: transform .2s; }
+  .zoom__deptos:hover {
+    transform: scale(0.9); }
+  .zoom__deptos img {
+    border: #2e518b solid 3px;
+    width: 100%;
+    height: 300px; }
+
+.header__depto1 {
+  background-color: #2e518b;
+  width: 100%;
+  height: 70px; }
+
+.main__depto-carrusel {
+  margin: 70px; }
+
+.header__casa1 {
+  background-color: #2e518b;
+  width: 100%;
+  height: 70px; }
+
+.main__casa-carrusel {
+  margin: 70px; }
+
+@media (max-width: 600px) {
+  .body__index {
+    background-color: cadetblue;
+    color: white; }
+  .header__index {
+    margin-bottom: 10px; }
+  .main__index {
+    margin-bottom: 10px; }
+  .footer__index {
+    background-color: navy;
+    color: white; }
+  .sp {
+    margin: 10px; }
+    .sp h3 {
+      text-align: left; }
+    .sp p {
+      margin: 10px;
+      text-align: left; }
+  .dh {
+    margin: 10px; }
+    .dh p {
+      margin: 10px;
+      text-align: center; }
+  .body__servicios {
+    background-color: cadetblue;
+    color: white; }
+  .main__servicios {
+    margin-bottom: 200px; }
+  .body__formulario {
+    background-color: cadetblue; }
+  .grid {
+    display: block; }
+  .div__form {
+    width: 100%; }
+  .formulario__imagen__decorativo {
+    display: none; }
+  .body__casas {
+    background-color: cadetblue; }
+  .section__casas {
+    display: flex;
+    flex-direction: column; }
+  .indic__casas {
+    background-color: white; }
+  .body__deptos {
+    background-color: cadetblue; }
+  .section__deptos {
+    display: flex;
+    flex-direction: column; }
+  .indic__deptos {
+    background-color: white; }
+  .body__casa1 {
+    background-color: cadetblue; }
+  .header__casa1 {
+    height: 200px; }
+  .body__depto1 {
+    background-color: cadetblue; }
+  .header__depto1 {
+    height: 200px; } }
+
+@media screen and (max-width: 450px) {
+  .footer__index {
+    font-size: 1rem;
+    margin-top: 350px; }
+  .dh {
+    margin: auto;
+    width: 100%;
+    margin-bottom: 46px; }
+    .dh p {
+      width: 100%; }
+    .dh h3 {
+      text-align: center; }
+  .sp {
+    margin: auto;
+    width: 100%; }
+    .sp p {
+      width: 100%; }
+    .sp h3 {
+      text-align: center; }
+  .flexbox__index {
+    display: none; }
+  .tuma {
+    display: none; }
+  .form-consultas {
+    margin: auto;
+    width: 100%; }
+  .div__form {
+    text-align: center; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }

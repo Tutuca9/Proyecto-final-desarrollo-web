@@ -1,0 +1,23 @@
+.body__servicios {
+    @include estilosInmbo($bg2);
+}
+.header__servicios {
+	width: 100%;
+	padding: 20px;
+	background-color: #2e518b;
+}
+.main__servicios {
+	margin: 40px;
+	height: 500px;
+}
+.section__servicios {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+.ra {
+	grid-column: 1/2;
+}
+.rb {
+	grid-column: 2/3;
+}
